@@ -4,6 +4,7 @@ CREATE TABLE users (
 );
 
 CREATE TABLE games (
+  games_id SERIAL PRIMARY KEY,
   random_number INT NOT NULL,
   number_of_guesses INT NOT NULL,
   user_id INT,
